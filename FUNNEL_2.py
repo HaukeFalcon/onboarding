@@ -12,6 +12,11 @@ pip.main(['install', 'plotly'])
 pip.main(['install', 'plotly_express'])
 
 
+pip.main(['install', 'openpyxl'])
+
+
+excel=pd.read_excel('APROBADOS.xlsx')
+
 
 #import plotly.express as px
 
@@ -20,6 +25,9 @@ import numpy as np
 
 st.title("FUNNEL ACTIVACASH 2.0 :sunglasses:")
 #df=pd.read_excel('PROCESOS_PIVOTE.xlsx')
+
+st.write(excel)
+
 
 #df_2=pd.read_csv('APROBADOS.csv')
 #st.write(df_2)
