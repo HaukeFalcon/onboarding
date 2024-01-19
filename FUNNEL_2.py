@@ -15,7 +15,7 @@ pip.main(['install', 'plotly_express'])
 pip.main(['install', 'openpyxl'])
 
 
-excel=pd.read_excel('APROBADOS.xlsx')
+excel=pd.read_excel('APROBADOS.xlsx',engine = 'openpyxl')
 
 
 #import plotly.express as px
